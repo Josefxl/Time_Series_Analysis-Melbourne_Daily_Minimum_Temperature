@@ -32,13 +32,15 @@ This project investigates time series forecasting using Melbourne’s daily *min
    - Deep learning models including LSTM and combinations with convolutional layers (Conv1D + LSTM)  
    - Tuning hyperparameters (e.g. number of layers, units, window sizes)  
 4. **Evaluation**  
-   - Metrics such as Mean Absolute Error (MAE) and Root Mean Squared Error (RMSE)  
+   - Metrics: Mean Squared Error (MSE), Mean Absolute Error (MAE)  
    - Visual comparison: predicted vs actual temperature  
 
 ---
 
 ## 📊 Results & Insights  
-- *[Insert your metrics here]* (e.g. “Conv1D + LSTM achieved RMSE of X on test set, improving over baseline by Y%”).  
+- **Forecast Performance:**  
+  - MSE = **5.41**  
+  - MAE = **1.81**  
 - Observed strong seasonal patterns (warmer vs cooler months).  
 - Lag features significantly improved prediction consistency.  
 - Visualization revealed model struggles on extreme outlier days.  
